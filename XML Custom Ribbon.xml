@@ -1,0 +1,34 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+    <ribbon startFromScratch="false">
+        <tabs>
+            <tab id="customTab" label="Statistics">
+                <group id="customGroup" label="Options" >
+                    <button id="btnDisplay" 
+                                label="Filter"
+                                imageMso="SortFilterMenu" 
+                                onAction="displayUserForm"
+                                size = "large" />
+                                
+                                
+                                
+                      <button id="btnCleary" 
+                                label="Clear Results"
+                                imageMso="Delete" 
+                                onAction="ClearResults"
+                                size = "large" />
+                                
+                                
+                       <button id="btnGenerateDoc" 
+                                label="Generate Report"
+                                imageMso="ExportWord" 
+                                onAction="writeInWord"
+                                size = "large" />
+                                
+                                        
+                    </group>
+                       
+                </tab>
+            </tabs>
+        </ribbon>
+    </customUI>
+       
